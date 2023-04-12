@@ -41,8 +41,7 @@ safesave("name.bson", data)
 @tagsave(datadir("name.bson"), data; safe = true)
 load(datadir("name.bson"))
 
-# Send entire project to Colleague
-# and they will run
+# Run below commands for using project from a different source than yours
 ```
    julia> using Pkg
    julia> Pkg.add("DrWatson") # install globally, for using `quickactivate`
